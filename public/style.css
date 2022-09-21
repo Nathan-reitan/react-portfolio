@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Hind&display=swap');
+
+body{
+    color: rgb(136, 170, 190);
+    background-color: #183446;
+    font-family: 'Hind', sans-serif;
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 16px 0;
+    padding: 0;
+    font-family: 'Archivo Black', sans-serif
+}
+
+.headerContainer{
+    display: flex;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    font-size: 1.25rem;
+}
+
+li>a{
+    font-family: 'Archivo Black', sans-serif;
+    color: rgba(240, 255, 255, 0.9);
+    text-decoration: none;
+}
+
+main{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+/* class styling */
+.header{
+    padding: 30px;
+}
+
+.navContainer{
+    padding: 0 30px;
+    display: flex;
+}
+
+.mainContainer{
+    width: 1500px;
+}
+
+.services{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.servicesRow{
+    margin: 15px;
+    padding: 10px;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.serviceWrapper{
+    width: 274px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.serviceIconContainer{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #005572;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.serviceIcons{
+  filter: invert(76%) sepia(76%) saturate(2069%) hue-rotate(157deg) brightness(85%) contrast(86%);
+}
+
+.serviceTitle{
+    width: 100%;
+    text-align: center;
+}
+
+.serviceContent{
+    text-align: center;
+}
+
+.logoContainer{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.navListContainer{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerNavList{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.rowContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.information{
+    margin: 30px 0;
+}
+
+.imageLeftRow{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60%;
+}
+
+.imageRightRow{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60%;
+}
+
+.rowContent{
+    width: 500px;
+}
+
+.leftP{
+    text-align: end;
+}
+
+.dropDownWrapper{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    margin: 15px;
+}
+
+.footer{
+    height: 200px;
+    border: solid 1px #3A3E4A;
+    background-color: #6C5370;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.footerWrapper{
+    width: 80%;
+}
