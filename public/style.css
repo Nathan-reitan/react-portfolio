@@ -52,6 +52,11 @@ main{
     width: 1500px;
 }
 
+.landingContainer{
+  height: 50vh;
+  width: 100%;
+}
+
 .services{
     width: 100%;
     display: flex;
@@ -158,8 +163,8 @@ main{
 
 .footer{
     height: 200px;
-    border: solid 1px #3A3E4A;
-    background-color: #6C5370;
+    border-top: solid 1px #046e8f;
+    background-color: #022f40;
     text-align: center;
     display: flex;
     justify-content: center;

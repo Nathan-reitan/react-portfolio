@@ -10,6 +10,10 @@ export default class Header extends React.Component{
         return (
             <main>
                 <div className="mainContainer">
+                    <div className="landingContainer">
+                        <h1>Nathan Reitan:</h1>
+                        <h1>Development and Digital Marketing</h1>
+                    </div>
                     <div id="services" className="services">
                         <div className="servicesRow">
                             <div className="serviceWrapper">
