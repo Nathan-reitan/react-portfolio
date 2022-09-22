@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Hind&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
+
+
 body{
-    color: rgb(136, 170, 190);
-    background-color: #183446;
+    color: rgb(94, 198, 253);
+    background-color: #0f2635;
     font-family: 'Hind', sans-serif;
     margin: 0;
 }
@@ -27,7 +30,7 @@ li{
 
 li>a{
     font-family: 'Archivo Black', sans-serif;
-    color: rgba(240, 255, 255, 0.9);
+    color: #09D4FA;
     text-decoration: none;
 }
 
@@ -52,9 +55,24 @@ main{
     width: 1500px;
 }
 
-.landingContainer{
+.landingWrapper{
   height: 50vh;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.landingContainer{
+  width: 85%;
+}
+
+.landingContainer>p{
+  text-align: start;
+  margin: 0;
+  font-size: 60px;
+  font-family: 'Neonderthaw', cursive;
+  color: #00d9ff;
 }
 
 .services{
