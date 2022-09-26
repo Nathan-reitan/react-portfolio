@@ -73,13 +73,11 @@ export default class Header extends React.Component{
                                 </div>
                                 <div className="rowContent">
                                     <h2>
-                                        Lorem ipsum dolor sit amet
+                                        About Me
                                     </h2>
                                     <p className="leftP">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-                                        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
-                                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                        I grew up in Southern California and graduated from San Clemente High School.  I am based out of Southern Orange County abd have been building and mainting websites both personal and professional since 2020. 
+                                        
                                     </p>
                                 </div>
                             </div>
@@ -88,7 +86,7 @@ export default class Header extends React.Component{
                             <div id="technologies" className="imageRightRow">
                                 <div className="rowContent">
                                     <h2>
-                                        Lorem ipsum dolor sit amet
+                                        Technology Stack
                                     </h2>
                                     <p>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
