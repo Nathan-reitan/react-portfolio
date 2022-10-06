@@ -72,6 +72,7 @@ main{
   margin: 0;
   font-size: 60px;
   font-family: 'Neonderthaw', cursive;
+  text-shadow: 0 0 10px #00d9ff;
   color: #00d9ff;
 }
 
@@ -102,6 +103,8 @@ main{
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    border: 1px solid #00d9ff;
+    box-shadow: 0 0 15px #00d9ff;
     background-color: #005572;
     display: flex;
     justify-content: center;
@@ -138,6 +141,18 @@ main{
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+}
+
+.headerNavButtons{
+
+    transition: 300ms all ease-in-out;
+}
+
+.headerNavButtons:hover{
+    font-size: 1.5rem;
+    color: #022f40;
+    text-shadow: 0 0 3px #00d9ff;
+    transition: 300ms all ease-in-out;
 }
 
 .rowContainer{

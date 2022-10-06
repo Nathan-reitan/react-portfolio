@@ -30,16 +30,16 @@ export default class Header extends React.Component{
                     <nav className="navListContainer">
                         <ul className="headerNavList">
                             <li>
-                                <a href="#services">Services</a>
+                                <a href="#services" className="headerNavButtons">Services</a>
                             </li>
                             <li>
-                                <a href="#technologies">Technologies</a>
+                                <a href="#technologies" className="headerNavButtons">Technologies</a>
                             </li>
                             <li>
-                                <a href="#portfolio">Portfolio</a>
+                                <a href="#portfolio" className="headerNavButtons">Portfolio</a>
                             </li>
                             <li>
-                                <a href="#about-me">About Me</a>
+                                <a href="#about-me" className="headerNavButtons">About Me</a>
                             </li>
                         </ul>
                     </nav>
