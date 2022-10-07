@@ -41,14 +41,16 @@ li>a{
 
 main{
     width: 100%;
-    padding: 10px;
+    padding: 30px 10px;
     display: flex;
     justify-content: center;
 }
 
 /* class styling */
 .header{
-    padding: 30px;
+    padding: 15px;
+    box-shadow: 0 0 10px #00d9ff;
+    height: 60px;
 }
 
 .navContainer{
@@ -66,6 +68,7 @@ main{
   display: flex;
   flex-direction: column;
   align-items: end;
+  padding: 30px 0;
 }
 
 .landingContainer{
@@ -97,11 +100,20 @@ main{
 }
 
 .serviceWrapper{
+    padding: 15px;
     width: 274px;
-    height: 340px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: solid 1px #0f2635;
+    transition: 750ms all ease-in-out;
+    
+}
+
+.serviceWrapper:hover{
+    transition: 750ms all ease-in-out;
+    transform: scale(1.1, 1.1);
+    border: solid 1px #00d9ff;
 }
 
 .serviceIconContainer{
@@ -206,6 +218,7 @@ main{
     text-align: center;
     display: flex;
     justify-content: center;
+    box-shadow: 0 0 10px #0098b3;
 }
 
 .footerWrapper{
