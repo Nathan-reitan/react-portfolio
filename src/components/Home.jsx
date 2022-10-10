@@ -3,9 +3,8 @@ import React from "react";
 export default class Header extends React.Component{
     constructor(props) {
         super(props);
-        
+
       }
-    
       render(){
         return (
             <main>
@@ -44,7 +43,7 @@ export default class Header extends React.Component{
                                 </div>
                                 <div className="serviceTitle"><h4>Server Development</h4></div>
                                 <div className="serviceContent">
-                                    <p>Use Express on a Node.js server to connect your front end with your backend.</p>
+                                    <p>Use Express servers with Node.js to retrieve infromation from databases and APIs</p>
                                 </div>
                             </div>
                             <div className="serviceWrapper">
@@ -53,7 +52,7 @@ export default class Header extends React.Component{
                                 </div>
                                 <div className="serviceTitle"><h4>Back End Development</h4></div>
                                 <div className="serviceContent">
-                                    <p>Store all your data in a PostgreSQL database.</p>
+                                    <p>Store all your data for future reference or to call back to your webpage in a PostgreSQL database.</p>
                                 </div>
                             </div>
                         </div>
@@ -76,7 +75,7 @@ export default class Header extends React.Component{
                                         About Me
                                     </h2>
                                     <p className="leftP">
-                                        I grew up in Southern California and graduated from San Clemente High School.  I am based out of Southern Orange County abd have been building and mainting websites both personal and professional since 2020. 
+                                        I grew up in Southern California and graduated from San Clemente High School.  I am based out of Southern Orange County and have been building and mainting websites both personal and professional since 2020.
                                     </p>
                                 </div>
                             </div>
@@ -87,11 +86,9 @@ export default class Header extends React.Component{
                                     <h2>
                                         Technology Stack
                                     </h2>
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-                                        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
-                                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    <p  className="rightP">
+                                        I develop lightweight, reactive web applications using the JavaScript framework React.js on Node.js with Express servers.  Using my experience with HTML5, CSS3, JavaScript, and SQL I can produce you beautiful, lightweight, and reactive full-stack applications for your business!
+                                        Once your applicaiton is built, we can start pushing your web presence to the front page of Google.
                                     </p>
                                 </div>
                                 <div className="rowImg">
@@ -100,9 +97,8 @@ export default class Header extends React.Component{
                             </div>
                         </div>
                     </div>
-                    
                 </div>
-            </main>                                             
+            </main>
         );
       }
 }

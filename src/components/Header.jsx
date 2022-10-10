@@ -6,14 +6,14 @@ export default class Header extends React.Component{
         this.closeNav = this.closeNav.bind(this);
         this.openNav = this.openNav.bind(this);
       }
-    
+
       /* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
       openNav() {
         document.getElementById('mySidenav').style.width = '250px';
         document.getElementById('overlay').style.width = '100%';
         document.getElementById('overlay').style.opacity = '0.8';
       }
-    
+
       /* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
       closeNav() {
         document.getElementById('mySidenav').style.width = '0';
@@ -44,7 +44,7 @@ export default class Header extends React.Component{
                         </ul>
                     </nav>
                 </div>
-            </header>                                               
+            </header>
         );
       }
 }

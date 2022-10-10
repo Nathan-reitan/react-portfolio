@@ -4,17 +4,30 @@ export default function Footer(){
 
     return (
         <footer>
-            <div class="footer">
-                <div class="footerWrapper">
+            <div className="footer">
+                <div className="footerWrapper">
                     <h1>
                         Nathan Reitan
                     </h1>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-                        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
+                    <div className="contactWrapper">
+                        <h2 className="contactTitle">Contact Me</h2>
+                        <ul className="listContainer">
+                            <li>
+                                <span>
+                                    <a href="tel:+9497019646" className="contactMe">
+                                        (949) 701-9646
+                                    </a>
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    <a href="mailto:nathanreitan@gmail.com" className="contactMe">
+                                        nathanreitan@gmail.com
+                                    </a>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </footer>
