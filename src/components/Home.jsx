@@ -24,7 +24,7 @@ export default class Header extends React.Component{
                                 <div className="serviceTitle"><h4>Front End Development</h4></div>
                                 <div className="serviceContent">
                                     <p>
-                                        Develop light-weight projects using agile methodology and mobile first.  Experience creating React Web Apps.
+                                        Develop light-weight, reactive projects using a mobile first, agile methodology.
                                     </p>
                                 </div>
                             </div>
