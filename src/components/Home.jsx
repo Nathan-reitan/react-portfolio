@@ -43,7 +43,7 @@ export default class Header extends React.Component{
                                 </div>
                                 <div className="serviceTitle"><h4>Server Development</h4></div>
                                 <div className="serviceContent">
-                                    <p>Use Express servers with Node.js to retrieve infromation from databases and APIs</p>
+                                    <p>Use Express servers with Node.js to retrieve information from databases and APIs and serve your web application</p>
                                 </div>
                             </div>
                             <div className="serviceWrapper">
@@ -58,10 +58,40 @@ export default class Header extends React.Component{
                         </div>
                     </div>
                     <div id="portfolio" className="portfolioWrapper">
-                        <div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
+                        <div className="portfolioContainer">
+                            <div className="portfolioCard">
+                                <div className="portfolioCardImageContainer">
+                                    <a href="https://growingrootselc.org/">
+                                        <img src="./images/growingRootsELC.webp" className="portfolioImage" alt="growing roots early learning center" />
+                                    </a>
+                                </div>
+                                <div className="portfolioCardDescriptionContainer">
+                                    <h1>Growing Roots ELC</h1>
+                                    <p>A lightweight web page built for a new early learning center in Kalispell, Montana.</p>
+                                </div>
+                            </div>
+                            <div className="portfolioCard">
+                                <div className="portfolioCardImageContainer">
+                                    <a href="https://wicked-sales.nathanreitan.com/">
+                                        <img src="./images/wickedSales.webp" className="portfolioImage" alt="growing roots early learning center" />
+                                    </a>
+                                </div>
+                                <div className="portfolioCardDescriptionContainer">
+                                    <h1>Wicked Sales</h1>
+                                    <p>A full-stack Node.js and React.js e-commerce application.</p>
+                                </div>
+                            </div>
+                            <div className="portfolioCard">
+                                <div className="portfolioCardImageContainer">
+                                    <a href="https://getcookin.nathanreitan.com/login">
+                                        <img src="./images/getCookin.webp" className="portfolioImage" alt="growing roots early learning center" />
+                                    </a>
+                                </div>
+                                <div className="portfolioCardDescriptionContainer">
+                                    <h1>Get Cookin'</h1>
+                                    <p>A dynamic web application made for home cooks who want to use up the items in their fridge/freezer.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div className="information">

@@ -160,7 +160,6 @@ main{
 }
 
 .headerNavButtons{
-
     transition: 300ms all ease-in-out;
 }
 
@@ -175,6 +174,34 @@ main{
     width: 100%;
     display: flex;
     justify-content: center;
+}
+
+.portfolioContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.portfolioCard{
+    width: 370px;
+    box-shadow: 0 0 15px #00d9ff;
+    border-radius: 5px;
+}
+
+.portfolioCardImageContainer{
+    margin: 0;
+    width: 370px;
+    height: 303px;
+}
+
+.portfolioImage{
+    border-radius: 5px 5px 0 0;
+}
+
+.portfolioCardDescriptionContainer{
+    margin: 0;
+    padding: 10px;
 }
 
 .information{
@@ -239,6 +266,7 @@ main{
 }
 
 .contactTitle{
+    padding: 0 0 5px 0;
     border-bottom: 1px solid #0098b3;
 }
 
