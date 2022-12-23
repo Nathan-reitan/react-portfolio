@@ -101,6 +101,7 @@ main{
 
 .serviceWrapper{
     padding: 15px;
+    margin: 15px;
     width: 250px;
     display: flex;
     flex-direction: column;
@@ -184,18 +185,20 @@ main{
 }
 
 .portfolioCard{
-    width: 370px;
+    margin: 15px;
+    width: 360px;
     box-shadow: 0 0 15px #00d9ff;
     border-radius: 5px;
 }
 
 .portfolioCardImageContainer{
     margin: 0;
-    width: 370px;
+    width: 360px;
     height: 303px;
 }
 
 .portfolioImage{
+    width: 360px;
     border-radius: 5px 5px 0 0;
 }
 

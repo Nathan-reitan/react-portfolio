@@ -130,5 +130,5 @@ export default class Header extends React.Component{
                 </div>
             </main>
         );
-      }
+    }
 }
