@@ -2,7 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
 
-
 body{
     color: rgb(94, 198, 253);
     background-color: #0f2635;
@@ -189,6 +188,8 @@ main{
     width: 360px;
     box-shadow: 0 0 15px #00d9ff;
     border-radius: 5px;
+    text-decoration: none;
+    color: #5ec6fd;
 }
 
 .portfolioCardImageContainer{
@@ -209,6 +210,27 @@ main{
 
 .information{
     margin: 30px 0;
+}
+
+.aboutPics{
+    shape-outside: circle(50%);
+}
+
+.testBlock{
+    display: flex;
+    width: 1080px;
+}
+
+.testImage{
+    width: 250px;
+    height: 250px;
+    float: left ;
+    shape-outside: circle(50%);
+    margin-right: 1rem;
+}
+
+.testP{
+    width: 250px;  
 }
 
 .imageLeftRow{

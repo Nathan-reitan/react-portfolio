@@ -59,53 +59,53 @@ export default class Header extends React.Component{
                     </div>
                     <div id="portfolio" className="portfolioWrapper">
                         <div className="portfolioContainer">
-                            <div className="portfolioCard">
+                            <a href="https://growingrootselc.org/" className="portfolioCard">
                                 <div className="portfolioCardImageContainer">
-                                    <a href="https://growingrootselc.org/">
+                                    <div>
                                         <img src="./images/growingRootsELC.webp" className="portfolioImage" alt="growing roots early learning center" />
-                                    </a>
+                                    </div>
                                 </div>
                                 <div className="portfolioCardDescriptionContainer">
                                     <h1>Growing Roots ELC</h1>
                                     <p>A lightweight web page built for a new early learning center in Kalispell, Montana.</p>
                                 </div>
-                            </div>
-                            <div className="portfolioCard">
+                            </a>
+                            <a href="https://wicked-sales.nathanreitan.com/" className="portfolioCard">
                                 <div className="portfolioCardImageContainer">
-                                    <a href="https://wicked-sales.nathanreitan.com/">
+                                    <div>
                                         <img src="./images/wickedSales.webp" className="portfolioImage" alt="growing roots early learning center" />
-                                    </a>
+                                    </div>
                                 </div>
                                 <div className="portfolioCardDescriptionContainer">
                                     <h1>Wicked Sales</h1>
-                                    <p>A full-stack Node.js and React.js e-commerce application.</p>
+                                    <p>A full-stack Node.js and React.js demonstrative e-commerce application.</p>
                                 </div>
-                            </div>
-                            <div className="portfolioCard">
+                            </a>
+                            <a href="https://getcookin.nathanreitan.com/login" className="portfolioCard">
                                 <div className="portfolioCardImageContainer">
-                                    <a href="https://getcookin.nathanreitan.com/login">
+                                    <div>
                                         <img src="./images/getCookin.webp" className="portfolioImage" alt="growing roots early learning center" />
-                                    </a>
+                                    </div>
                                 </div>
                                 <div className="portfolioCardDescriptionContainer">
                                     <h1>Get Cookin'</h1>
                                     <p>A dynamic web application made for home cooks who want to use up the items in their fridge/freezer.</p>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                     <div className="information">
                         <div className="rowContainer">
                             <div id="about-me" className="imageLeftRow">
                                 <div className="rowImg">
-                                    <img src="./images/nathanReitanCircle.webp" alt="" height="300" className="aboutPics" />
+                                    <img src="./images/nathanReitanCircle.webp" alt="Nathan Reitan - Software Developer, SEO & SEM Specialist" height="300" className="aboutPics" />
                                 </div>
                                 <div className="rowContent">
                                     <h2>
                                         About Me
                                     </h2>
                                     <p className="leftP">
-                                        I grew up in Southern California and graduated from San Clemente High School.  I am based out of Southern Orange County and have been building and mainting websites both personal and professional since 2020.
+                                        I grew up in Southern California and graduated from San Clemente High School.  I am based out of Southern Orange County and have been building and maintaining websites both personal and professional since 2020.
                                     </p>
                                 </div>
                             </div>
