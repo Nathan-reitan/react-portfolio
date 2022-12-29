@@ -269,7 +269,6 @@ main{
 }
 
 .footer{
-    height: 170px;
     border-top: solid 1px #046e8f;
     background-color: #022f40;
     text-align: center;
@@ -287,7 +286,7 @@ main{
 }
 
 .contactWrapper{
-    width: 40%;
+    width: 50%;
 }
 
 .contactTitle{
@@ -297,10 +296,30 @@ main{
 
 .listContainer{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0;
 }
 
 .contactMe{
     text-decoration: none;
     color: #0098b3;
+}
+
+.footerContactIcons{
+    height: 22px;
+    padding: 0;
+    margin: 0 10px -5px 0;
+}
+
+.socialWrapper{
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid #0098b3;
+}
+
+.socialIcons{
+    width: 30px;
+    height: 30px;
 }

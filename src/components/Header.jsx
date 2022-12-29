@@ -33,13 +33,13 @@ export default class Header extends React.Component{
                                 <a href="#services" className="headerNavButtons">Services</a>
                             </li>
                             <li>
-                                <a href="#technologies" className="headerNavButtons">Technologies</a>
-                            </li>
-                            <li>
                                 <a href="#portfolio" className="headerNavButtons">Portfolio</a>
                             </li>
                             <li>
                                 <a href="#about-me" className="headerNavButtons">About Me</a>
+                            </li>
+                            <li>
+                                <a href="#technologies" className="headerNavButtons">Technologies</a>
                             </li>
                         </ul>
                     </nav>

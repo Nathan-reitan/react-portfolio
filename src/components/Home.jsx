@@ -118,7 +118,7 @@ export default class Header extends React.Component{
                                     </h2>
                                     <p  className="rightP">
                                         I develop lightweight, reactive web applications using the JavaScript framework React.js on Node.js with Express servers.  Using my experience with HTML5, CSS3, JavaScript, and SQL I can produce you beautiful, lightweight, and reactive full-stack applications for your business!
-                                        Once your applicaiton is built, we can start pushing your web presence to the front page of Google.
+                                        Once your application is built, we can start pushing your web presence to the front page of Google.
                                     </p>
                                 </div>
                                 <div className="rowImg">

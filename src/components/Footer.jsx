@@ -15,6 +15,7 @@ export default function Footer(){
                             <li>
                                 <span>
                                     <a href="tel:+9497019646" className="contactMe">
+                                        <img src="./icons/mobilePhone.svg" alt="phone Icon" className="footerContactIcons"/>
                                         (949) 701-9646
                                     </a>
                                 </span>
@@ -27,6 +28,10 @@ export default function Footer(){
                                 </span>
                             </li>
                         </ul>
+                    </div>
+                    <div className="socialWrapper">
+                        <img src="./icons/github.svg" alt="" className="socialIcons"/>
+                        <img src="./icons/linkedin.svg" alt="" className="socialIcons"/>
                     </div>
                 </div>
             </div>
