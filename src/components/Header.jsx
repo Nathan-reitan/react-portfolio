@@ -22,13 +22,17 @@ export default class Header extends React.Component{
       }
       render(){
         return (
-            <header className="header">
-                <div className="navContainer">
-                    <div className="logoContainer">
-                        <img src="./images/logo(blue).png" alt="Nathan Reitan Software Development" height="40px"/>
-                    </div>
-                    <nav className="navListContainer">
-                        <ul className="headerNavList">
+            <header>
+                <section class="top-nav">
+                    <div class="navContainer">
+                        <a href="./" className="logoContainer">
+                            <img src="./images/logo(blue).png" alt="Nathan Reitan Software Development" height="40px"/>
+                        </a>
+                        <input id="menu-toggle" type="checkbox" />
+                        <label class="menu-button-container" for="menu-toggle">
+                            <div class="menu-button"></div>
+                        </label>
+                        <ul class="menu">
                             <li>
                                 <a href="#services" className="headerNavButtons">Services</a>
                             </li>
@@ -42,9 +46,9 @@ export default class Header extends React.Component{
                                 <a href="#technologies" className="headerNavButtons">Technologies</a>
                             </li>
                         </ul>
-                    </nav>
-                </div>
+                    </div>
+                </section>
             </header>
         );
-      }
+    }
 }

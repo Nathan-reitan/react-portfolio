@@ -9,6 +9,10 @@ body{
     margin: 0;
 }
 
+a:hover{
+    color: #00d9ff;
+}
+
 ::selection{
     color: #0f2635;
     background: #0098b3;
@@ -45,15 +49,8 @@ main{
 }
 
 /* class styling */
-.header{
-    padding: 15px;
-    box-shadow: 0 0 10px #00d9ff;
-    height: 60px;
-}
-
-.navContainer{
-    padding: 0 30px;
-    display: flex;
+.logoContainer{
+    height: 40px;
 }
 
 .mainContainer{
@@ -269,6 +266,7 @@ main{
 }
 
 .footer{
+    padding: 15px 0;
     border-top: solid 1px #046e8f;
     background-color: #022f40;
     text-align: center;
@@ -287,6 +285,7 @@ main{
 
 .contactWrapper{
     width: 50%;
+    border-bottom: 1px solid #0098b3;
 }
 
 .contactTitle{
@@ -309,6 +308,7 @@ main{
     height: 22px;
     padding: 0;
     margin: 0 10px -5px 0;
+    filter: invert(46%) sepia(53%) saturate(6795%) hue-rotate(165deg) brightness(100%) contrast(101%);
 }
 
 .socialWrapper{
@@ -316,10 +316,149 @@ main{
     padding: 10px;
     display: flex;
     justify-content: space-evenly;
-    border-top: 1px solid #0098b3;
 }
 
 .socialIcons{
     width: 30px;
     height: 30px;
+    filter: invert(46%) sepia(53%) saturate(6795%) hue-rotate(165deg) brightness(100%) contrast(101%);
 }
+
+.socialIcons:hover{
+    filter: invert(63%) sepia(86%) saturate(1376%) hue-rotate(144deg) brightness(100%) contrast(104%);
+}
+
+
+/* headerMenu */
+.top-nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 60px;
+    padding: 1em;
+    box-shadow: 0 0 10px #00d9ff;
+  }
+  
+  .navContainer{
+    width: 70%;
+    padding: 0 15px;
+    min-width: 360px;
+    max-width: 1256px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+  }
+  
+  .menu>li {
+    margin: 0 1rem;
+    overflow: hidden;
+  }
+  
+  .menu-button-container {
+    display: none;
+    height: 100%;
+    width: 30px;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #menu-toggle {
+    display: none;
+  }
+  
+  .menu-button,
+  .menu-button::before,
+  .menu-button::after {
+    display: block;
+    background-color: #00d9ff;
+    position: absolute;
+    height: 4px;
+    width: 30px;
+    transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    border-radius: 2px;
+  }
+  
+  .menu-button::before {
+    content: '';
+    margin-top: -8px;
+  }
+  
+  .menu-button::after {
+    content: '';
+    margin-top: 8px;
+  }
+  
+  #menu-toggle:checked+.menu-button-container .menu-button::before {
+    margin-top: 0px;
+    transform: rotate(405deg);
+  }
+  
+  #menu-toggle:checked+.menu-button-container .menu-button {
+    background: rgba(255, 255, 255, 0);
+  }
+  
+  #menu-toggle:checked+.menu-button-container .menu-button::after {
+    margin-top: 0px;
+    transform: rotate(-405deg);
+  }
+  
+  @media (max-width: 1300px) {
+    .menu-button-container {
+         display: flex;
+    }
+  
+    .menu {
+         position: absolute;
+         top: 0;
+         margin-top: 95px;
+         left: 0;
+         flex-direction: column;
+         width: 100%;
+         justify-content: center;
+         align-items: center;
+    }
+  
+    #menu-toggle~.menu li {
+         height: 0;
+         margin: 0;
+         padding: 0;
+         border: 0;
+         transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+  
+    #menu-toggle:checked~.menu li {
+         border: 1px solid #333;
+         height: 2.5em;
+         padding: 0.5em;
+         transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+  
+    .menu>li {
+         display: flex;
+         justify-content: center;
+         margin: 0;
+         padding: 0.5em 0;
+         width: 100%;
+         background-color: #222;
+    }
+  
+    .menu>li:not(:last-child) {
+         border-bottom: 1px solid #444;
+    }
+  }
+  

@@ -30,8 +30,12 @@ export default function Footer(){
                         </ul>
                     </div>
                     <div className="socialWrapper">
-                        <img src="./icons/github.svg" alt="" className="socialIcons"/>
-                        <img src="./icons/linkedin.svg" alt="" className="socialIcons"/>
+                        <a href="https://github.com/Nathan-reitan">
+                            <img src="./icons/github.svg" alt="" className="socialIcons"/>
+                        </a>
+                        <a href="https://www.linkedin.com/in/nathan-reitan/">
+                            <img src="./icons/linkedin.svg" alt="" className="socialIcons"/>
+                        </a>
                     </div>
                 </div>
             </div>
