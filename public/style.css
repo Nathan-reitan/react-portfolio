@@ -234,6 +234,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     width: 60%;
 }
 
@@ -241,21 +242,12 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
     width: 60%;
 }
 
 .rowContent{
     width: 500px;
-}
-
-.leftP{
-    text-align: end;
-    margin-left: 15px;
-}
-
-.rightP{
-    text-align: start;
-    margin-right: 15px;
 }
 
 .dropDownWrapper{
@@ -462,3 +454,25 @@ main{
     }
   }
   
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .top-nav{
+        width: auto;
+        padding: 10px;
+    }
+    .mainContainer {
+      width: 100%;
+    }
+    .landingWrapper{
+        align-items: center;
+    }
+    .landingContainer>p{
+        font-size: 40px;
+    }
+    .imageLeftRow{
+        width: 100%;
+    }
+    
+    .imageRightRow{
+        width: 100%;
+    }
+  }

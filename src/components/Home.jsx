@@ -104,7 +104,7 @@ export default class Header extends React.Component{
                                     <h2>
                                         About Me
                                     </h2>
-                                    <p className="leftP">
+                                    <p>
                                         I grew up in Southern California and graduated from San Clemente High School.  I am based out of Southern Orange County and have been building and maintaining websites both personal and professional since 2020.
                                     </p>
                                 </div>
