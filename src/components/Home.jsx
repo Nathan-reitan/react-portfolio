@@ -11,8 +11,7 @@ export default class Header extends React.Component{
                 <div className="mainContainer">
                     <div className="landingWrapper">
                         <div className='landingContainer'>
-                            <p>Nathan Reitan:</p>
-                            <p>Web Development and Digital Marketing</p>
+                            <h1 className="landingTitle"><span>Reitan </span><span>Web Services</span></h1>
                         </div>
                     </div>
                     <div id="services" className="services">

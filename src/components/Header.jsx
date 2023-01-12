@@ -26,8 +26,9 @@ export default class Header extends React.Component{
                 <section class="top-nav">
                     <div class="navContainer">
                         <a href="./" className="logoContainer">
-                            <img src="./images/logo(blue).png" alt="Nathan Reitan Software Development" height="40px"/>
+                            <h1 className="landingTitle">Reitan Web Services</h1>
                         </a>
+                        
                         <input id="menu-toggle" type="checkbox" />
                         <label class="menu-button-container" for="menu-toggle">
                             <div class="menu-button"></div>
