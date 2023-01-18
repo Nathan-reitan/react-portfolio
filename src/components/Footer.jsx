@@ -23,6 +23,7 @@ export default function Footer(){
                             <li>
                                 <span>
                                     <a href="mailto:nathanreitan@gmail.com" className="contactMe">
+                                        <img src="./icons/envelope-solid.svg" alt="email Icon" className="footerContactIcons" />
                                         nathanreitan@gmail.com
                                     </a>
                                 </span>
