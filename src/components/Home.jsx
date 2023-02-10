@@ -10,6 +10,13 @@ export default class Header extends React.Component{
             <main>
                 <div className="mainContainer">
                     <div className="landingWrapper">
+                        <div className="landingLogo">
+                            <img src="./images/logo(blue).png" alt="" height={250} />
+                        </div>
+                        <div className="landingCta">
+                            <h1 className="landingTitle"><span>Reitan Web Services</span></h1>
+                            <button className="learnMoreBtn">Learn More</button>
+                        </div>
                     </div>
                     <div id="services" className="services">
                         <div className="servicesRow">
