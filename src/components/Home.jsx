@@ -3,8 +3,30 @@ import React from "react";
 export default class Header extends React.Component{
     constructor(props) {
         super(props);
-
+        this.state ={
+            atTop: true,
+        }
+        this.learnMore = this.learnMore.bind(this)
+        this.handleScroll = this.handlScroll.bind(this)
       }
+
+    handlScroll = () =>{
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            return this.setState(state => ({
+                atTop: false,
+            }));
+        }
+    }
+
+      learnMore(){
+        let services = document.getElementById("services")
+        services.scrollIntoView({behavior: "smooth"})
+      }
+
+      componentDidMount(){
+        window.addEventListener("scroll", this.handlScroll)
+      }
+
       render(){
         return (
             <main>
@@ -15,7 +37,7 @@ export default class Header extends React.Component{
                         </div>
                         <div className="landingCta">
                             <h1 className="landingTitle"><span>Reitan Web Services</span></h1>
-                            <button className="learnMoreBtn">Learn More</button>
+                            <div className="learnMoreBtn" onClick={this.learnMore}>Learn More</div>
                         </div>
                     </div>
                     <div id="services" className="services">
@@ -131,6 +153,7 @@ export default class Header extends React.Component{
                         </div>
                     </div>
                 </div>
+                <div id="myBtn">Top</div>
             </main>
         );
     }

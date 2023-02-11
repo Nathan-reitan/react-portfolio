@@ -21,17 +21,17 @@ export default class Header extends React.Component{
       render(){
         return (
             <header>
-                <section class="top-nav">
-                    <div class="navContainer">
+                <section className="top-nav">
+                    <div className="navContainer">
                         <a href="./" className="logoContainer">
                             <h1 className="headerTitle">Reitan Web Services</h1>
                         </a>
 
                         <input id="menu-toggle" type="checkbox" />
-                        <label class="menu-button-container" for="menu-toggle">
-                            <div class="menu-button"></div>
+                        <label className="menu-button-container" htmlFor="menu-toggle">
+                            <div className="menu-button"></div>
                         </label>
-                        <ul class="menu">
+                        <ul className="menu">
                             <li>
                                 <a href="#services" className="headerNavButtons">Services</a>
                             </li>
