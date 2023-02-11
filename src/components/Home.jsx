@@ -1,13 +1,14 @@
 import React from "react";
 
-export default class Header extends React.Component{
+export default class Home extends React.Component{
     constructor(props) {
         super(props);
         this.state ={
             atTop: true,
         }
-        this.learnMore = this.learnMore.bind(this)
-        this.handleScroll = this.handlScroll.bind(this)
+        this.learnMore = this.learnMore.bind(this);
+        this.handleScroll = this.handlScroll.bind(this);
+        this.toTop = this.toTop.bind(this);
       }
 
     handlScroll = () =>{
@@ -15,7 +16,19 @@ export default class Header extends React.Component{
             return this.setState(state => ({
                 atTop: false,
             }));
+        } else {
+            return this.setState(state => ({
+                atTop: true,
+            }));
         }
+    }
+
+    toTop = () => {
+        let top = document.documentElement;
+        top.scrollIntoView({behavior: "smooth"})
+        return this.setState(state => ({
+            atTop: true,
+        }))
     }
 
       learnMore(){
@@ -25,6 +38,7 @@ export default class Header extends React.Component{
 
       componentDidMount(){
         window.addEventListener("scroll", this.handlScroll)
+
       }
 
       render(){
@@ -153,7 +167,11 @@ export default class Header extends React.Component{
                         </div>
                     </div>
                 </div>
-                <div id="myBtn">Top</div>
+                <div 
+                    id="myBtn" 
+                    className={this.state.atTop?"btnHidden":"btnRevealed"}
+                    onClick={this.toTop}
+                    >Top</div>
             </main>
         );
     }
