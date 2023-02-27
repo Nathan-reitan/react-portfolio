@@ -56,11 +56,30 @@ export default class Form extends React.Component {
         {this.state.submitted
           ? <div>
             <h1>
-                                Thank you for submitting a form, we will reach out as soon as possible.
+                    Thank you for submitting a form, we will reach out as soon as possible.
             </h1>
           </div>
           : <form onSubmit={this.handleSubmit}>
-
+            <div>
+              <label htmlFor="">First Name</label>
+              <input type="text" name="firstName" id="firstName" onChange={this.handleChange} required/>
+            </div>
+            <div>
+              <label htmlFor="">Last Name</label>
+              <input type="text" name="lastName" id="lastName" onChange={this.handleChange} />
+            </div>
+            <div>
+              <label htmlFor="">Phone</label>
+              <input type="text" name="phone" id="phone" onChange={this.handleChange} required/>
+            </div>
+            <div>
+              <label htmlFor="">Email</label>
+              <input type="text" name="email" id="email" onChange={this.handleChange} required/>
+            </div>
+            <div>
+              <label htmlFor="">Company</label>
+              <input type="text" name="company" id="company" onChange={this.handleChange} required/>
+            </div>
           </form>
         }
 
