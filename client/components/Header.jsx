@@ -27,7 +27,6 @@ export default class Header extends React.Component {
             <a href="./" className="logoContainer">
               <h1 className="headerTitle">Reitan Web Services</h1>
             </a>
-
             <input id="menu-toggle" type="checkbox" />
             <label className="menu-button-container" htmlFor="menu-toggle">
               <div className="menu-button"></div>
