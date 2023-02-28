@@ -34,7 +34,7 @@ export default class Form extends React.Component {
   }
 
   sendInfo(info) {
-    fetch('/api/rsvp', {
+    fetch('/api/formSubmit', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'

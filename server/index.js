@@ -54,18 +54,18 @@ app.get('/api/health-check', (req, res, next) => {
     .catch(err => next(err));
 });
 
-app.post('/api/rsvp', (req, res) => {
+app.post('/api/formSubmit', (req, res) => {
   const name = req.body.name;
   const phone = req.body.phone;
   const email = req.body.email;
-  const message = req.body.message;
-  const guestInfo = { name, phone, email, message };
+  const company = req.body.company;
+  const guestInfo = { name, phone, email, company };
 
   main(guestInfo).catch(console.error);
 
-  const params = [name, phone, email, message];
-  const sql = `insert into "formSubmissions"("formId", "guest1Name", "guest1Meal", "guest1Allergies", "guest2Name", "guest2Meal", "guest2Allergies")
-                  values (default, $1, $2, $3, $4, $5, $6)
+  const params = [name, phone, email, company];
+  const sql = `insert into "formSubmissions"("formId", "name", "phone", "email", "company")
+                  values (default, $1, $2, $3, $4)
                   returning *
                   `;
 
