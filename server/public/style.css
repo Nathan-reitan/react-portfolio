@@ -287,7 +287,7 @@ main{
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    width: 60%;
+    width: 70%;
 }
 
 .imageRightRow{
@@ -295,7 +295,7 @@ main{
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap-reverse;
-    width: 60%;
+    width: 70%;
 }
 
 .rowContent{
@@ -520,10 +520,20 @@ main{
         width: 100%;
     }
     .landingWrapper{
+        height: auto;
         align-items: center;
     }
     .landingContainer{
         width: 100%;
+    }
+    .landingTitle {
+        text-align: center;
+        margin: 30px 0;
+        font-size: 4em;
+        font-family: 'Neonderthaw', cursive;
+        font-weight: 500;
+        text-shadow: 0 0 25px #00d9ff;
+        color: #00d9ff;
     }
     .imageLeftRow{
         width: 100%;
