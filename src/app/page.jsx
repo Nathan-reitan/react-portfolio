@@ -257,7 +257,7 @@ export default async function Home() {
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             I'm Nathan, a web developer and digital marketing specialist based
             in Montana. I am a data-driven digital marketer, specializing in
-            light-weigt web applications, SEO, and SEM.
+            light-weight web applications, SEO, and SEM.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
