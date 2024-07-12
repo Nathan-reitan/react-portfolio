@@ -2,34 +2,34 @@ import Image from 'next/image'
 
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
-import logo406 from '@/images/logos/406-web-dev.svg'
-import logoGrowingRoots from '@/images/logos/growingRootsLogo.webp'
-import logoSunPac from '@/images/logos/sunpacLogo.svg'
-import logoSMC from '@/images/logos/smcLogo.webp'
+import logo406 from '@images/logos/406-web-dev.svg'
+import logoGrowingRoots from '@images/logos/growingRootsLogo.webp'
+import logoSmc from '@images/logos/smcLogo.webp'
+import logoSunPac from '@images/logos/sunpacLogo.svg'
 
 const projects = [
   {
-    name: '406 Web Dev',
+    name: '406 Web Development',
     description: 'Helping businesses make an impact on the web!',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
+    link: { href: 'http://406webdev.com', label: '406 Web Dev' },
     logo: logo406,
   },
   {
     name: 'Growing Roots ELC',
     description: 'A custom built website for a preschool in Kalispell Montana.',
-    link: { href: 'https://growingrootselc.org', label: 'github.com' },
+    link: { href: 'https://growingrootelc.org', label: 'github.com' },
     logo: logoGrowingRoots,
   },
   {
     name: 'Specialty Management Consulting',
-    description: 'Consultation on web design for a GoDaddy template.',
-    link: { href: 'https://specialtymgmt.com', label: 'github.com' },
-    logo: logoSMC,
+    description: 'Consultation on web design for a GoDaddy template',
+    link: { href: 'https://specialtymgmt.com/', label: 'github.com' },
+    logo: logoSmc,
   },
   {
     name: 'Sun Pacific Properties',
     description:
-      'The full digital marketing package for a 1.1 billion dollar real estate firm.',
+      'The full digital marketing package for a 1.1 billion dollar real estate firm',
     link: { href: 'https://sunpac1031.com', label: 'github.com' },
     logo: logoSunPac,
   },
