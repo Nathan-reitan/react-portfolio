@@ -10,10 +10,9 @@ import logoPlanetaria from '@/images/logos/planetaria.svg'
 
 const projects = [
   {
-    name: 'Planetaria',
-    description:
-      'Creating technology to empower civilians to explore space on their own terms.',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
+    name: '406 Web Development',
+    description: 'Helping businesses make an impact on the web!',
+    link: { href: 'http://406webdev.com', label: '406 Web Dev' },
     logo: logoPlanetaria,
   },
   {
