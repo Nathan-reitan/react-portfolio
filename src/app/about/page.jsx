@@ -3,12 +3,7 @@ import Link from 'next/link'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
-import {
-  GitHubIcon,
-  InstagramIcon,
-  LinkedInIcon,
-  XIcon,
-} from '@/components/SocialIcons'
+import { GitHubIcon, LinkedInIcon } from '@/components/SocialIcons'
 import portraitImage from '@/images/nathan.webp'
 
 function SocialLink({ className, href, children, icon: Icon }) {
@@ -63,17 +58,17 @@ export default function About() {
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
-              I've always had an analytic mind and enjoyed understanding how
-              things work. As a child I would take toys apart and put them back
-              together. My brother built me my first computer when I was 10 and
-              installed a program to learn graphing.
+              I&apos;ve always had an analytic mind and enjoyed understanding
+              how things work. As a child I would take toys apart and put them
+              back together. My brother built me my first computer when I was 10
+              and installed a program to learn graphing.
             </p>
             <p>
               Growing up I spent time skateboarding, builting forts in bushes,
-              and climbing on things I shouldn't have (with the scars to prove
-              it). When I wasn't outside, I was spending time on the computer
-              learning all about the internet with a curiousity to how Search
-              Engines show you what you're looking for.
+              and climbing on things I shouldn&apos;t have (with the scars to
+              prove it). When I wasn&apos;t outside, I was spending time on the
+              computer learning all about the internet with a curiousity to how
+              Search Engines show you what you&apos;re looking for.
             </p>
             <p>
               After High School I spent a few years working in Law Firms where I
@@ -88,7 +83,7 @@ export default function About() {
               assisting businesses navigate the ins-and-outs of marketing in
               todays digital landscape. With a little SEO, SEM, and website
               optimization we can get your web presence as strong as the
-              business you've built!
+              business you&apos;ve built!
             </p>
           </div>
         </div>

@@ -51,8 +51,9 @@ export default function Uses() {
             keypress feels satisfying!
           </Tool>
           <Tool title="S-Racer Office Chair">
-            If I’m going to slouch in the worst ergonomic position imaginable
-            all day, I might as well do it in an expensive chair.
+            As someone who spends most of the day in a chair, I needed something
+            to provide some back support...even though I am usually slouched in
+            it.
           </Tool>
         </ToolsSection>
         <ToolsSection title="Development tools">
@@ -72,13 +73,14 @@ export default function Uses() {
         </ToolsSection>
         <ToolsSection title="Design">
           <Tool title="Photoshop">
-            Adobe Photoshop is a great tool for editing images. If you can't
-            afford the option <a href="htpps://photopea.com">photopea.com</a> is
-            a great and free alternative.
+            Adobe Photoshop is a great tool for editing images. If you
+            can&apos;t afford the option{' '}
+            <a href="htpps://photopea.com">photopea.com</a> is a great and free
+            alternative.
           </Tool>
           <Tool title="Ilustrator">
-            Adobe illustrator is used for crafting custom svgs if you ever need
-            to make a logo illustrator is a great place to do so!
+            Adobe Illustrator is used for crafting custom svgs if you ever need
+            to make a logo Illustrator is a great place to do so!
           </Tool>
         </ToolsSection>
       </div>
