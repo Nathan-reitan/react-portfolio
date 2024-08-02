@@ -15,6 +15,29 @@ import image5 from '@/images/photos/image-5.webp'
 import { getAllArticles } from '@/lib/articles'
 import { formatDate } from '@/lib/formatDate'
 
+const images = [
+  {
+    src: image1,
+    alt: 'Glacier National Park',
+  },
+  {
+    src: image2,
+    alt: 'Tech Stack',
+  },
+  {
+    src: image3,
+    alt: 'Keyboard',
+  },
+  {
+    src: image4,
+    alt: 'Digital Marketing',
+  },
+  {
+    src: image5,
+    alt: 'Hawaii',
+  },
+]
+
 function BriefcaseIcon(props) {
   return (
     <svg
@@ -144,17 +167,17 @@ function Photos() {
   return (
     <div className="mt-16 sm:mt-20">
       <div className="-my-4 flex justify-center gap-5 overflow-hidden py-4 sm:gap-8">
-        {[image1, image2, image3, image4, image5].map((image, imageIndex) => (
+        {images.map((image, imageIndex) => (
           <div
-            key={image.src}
+            key={imageIndex}
             className={clsx(
               'relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 sm:w-72 sm:rounded-2xl dark:bg-zinc-800',
               rotations[imageIndex % rotations.length],
             )}
           >
             <Image
-              src={image}
-              alt=""
+              src={image.src}
+              alt={image.alt}
               sizes="(min-width: 640px) 18rem, 11rem"
               className="absolute inset-0 h-full w-full object-cover"
             />
